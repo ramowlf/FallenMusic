@@ -58,7 +58,7 @@ async def fallen_startup():
     try:
         await app.send_message(
             SUNAME,
-            f"✯ 𝐵𝑂𝑇 𝐴𝐿𝑇𝑌𝐴𝑃𝐼 𝑀𝑈𝑆𝐼𝐶 ✯\n\n𖢵 ɪᴅ : `{BOT_ID}`\n𖢵 ɴᴀᴍᴇ : {BOT_NAME}\n𖢵 ᴜsᴇʀɴᴀᴍᴇ : @{BOT_USERNAME}",
+            f"✯ 𝐵𝐴𝐿𝐿𝐴𝑆 𝑀𝑈𝑆𝐼𝐶 ✯\n\n𖢵 ɪᴅ : `{BOT_ID}`\n𖢵 ɴᴀᴍᴇ : {BOT_NAME}\n𖢵 ᴜsᴇʀɴᴀᴍᴇ : @{BOT_USERNAME}",
         )
     except:
         LOGGER.error(
