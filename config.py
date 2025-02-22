@@ -9,7 +9,7 @@ API_ID = int(getenv("API_ID"))
 API_HASH = getenv("API_HASH")
 
 BOT_TOKEN = getenv("BOT_TOKEN", None)
-DURATION_LIMIT = int(getenv("DURATION_LIMIT", "300"))
+DURATION_LIMIT = int(getenv("DURATION_LIMIT", 360))
 
 OWNER_ID = int(getenv("OWNER_ID"))
 
@@ -18,10 +18,10 @@ START_IMG = getenv("START_IMG", "https://te.legra.ph/file/a39509bf85f227739bc68.
 
 SESSION = getenv("SESSION", None)
 
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/TeamL7X")
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/BotAltyapi")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Ballasresmi")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/BotAltyapiKanali")
 
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "1356469075").split()))
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "6166620373").split()))
 
 
 FAILED = "https://te.legra.ph/file/366e6e941b048e36b8468.jpg"
